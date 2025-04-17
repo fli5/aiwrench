@@ -1,0 +1,824 @@
+html,
+body,
+section,
+p,
+header,
+nav,
+footer,
+div,
+article,
+aside,
+ol,
+ul,
+li,
+h1,
+h6 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+body {
+    font-size: 100%;
+    margin: 0px auto;
+    height: 100%;
+    background: #f7f7f7;
+    text-align: center;
+    font-family: "Verdana", "Geneva", "Tahoma", "sans-serif";
+}
+
+
+a {
+    text-decoration: none;
+    display: block;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    cursor: pointer;
+}
+
+#free-trial {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: #FD7A00;
+    border-radius: 80px;
+    position: fixed;
+    right: 10px;
+    top: 49%;
+    z-index: 99999;
+}
+
+#free-trial > span {
+    color: #FFFFFF;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+#free-trial > img {
+    width: 30px;
+}
+
+.active-link {
+    color: #00CD9F;
+}
+
+header > #navigate-section {
+    flex-wrap: nowrap;
+    background: rgb(250, 250, 250);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 80px;
+}
+
+header > #navigate-section #header-nav {
+    flex: 1;
+    display: flex;
+    text-align: center;
+    list-style: none;
+    font-size: 1em;
+}
+
+header > #navigate-section > #logo {
+    width: 4rem;
+    height: 4rem;
+}
+
+header #header-nav ul {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: stretch;
+    text-align: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    line-height: 6rem;
+}
+
+header #header-nav ul li {
+    padding: 0 2rem;
+    font-weight: bold;
+}
+
+header #header-nav ul li a:hover, #header-nav ul li a:focus {
+    color: #00CD9F;
+}
+
+header #banner-section {
+    background: url('../images/banner.png') no-repeat right 100px center, linear-gradient(90deg, #007E62 0%, #0C112C 100%);
+    color: #eaecee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding: 40px 80px;
+}
+
+header #banner-section > div {
+    flex: 1;
+}
+
+header #banner-section img {
+    flex-basis: 800px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+header #banner-section #main-title {
+    font-size: 1.5rem;
+    font-weight: normal;
+    letter-spacing: 1rem;
+    padding-left: 4rem;
+    line-height: 4rem;
+    margin: 2rem auto;
+}
+
+header #banner-section #sub-title {
+    font-weight: normal;
+    letter-spacing: 1rem;
+    padding-left: 4rem;
+}
+
+header #banner-section #qrcode-list {
+    text-align: center;
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 4rem;
+    padding: 0;
+    margin: 4rem auto;
+}
+
+header #banner-section #qrcode-list li img {
+    width: 150px;
+    height: 150px;
+    padding-left: 4rem;
+}
+
+
+main #values-section {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 80px 80px;
+
+}
+
+main #values-section h2 {
+    font-size: 1.5rem;
+}
+
+main #values-section p {
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    margin: 20px 0 80px 0;
+
+}
+
+main #values-section ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: center;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+main #values-section ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 2px;
+    padding: 0px 80px;
+    bottom: 10px;
+    width: 25%;
+}
+
+main #values-section ul li span {
+    flex: 1;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    text-align: center;
+    line-height: 2rem;
+
+}
+
+main #values-section ul li img {
+    width: 10rem;
+}
+
+main #company-section {
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+}
+
+main #company-section img {
+    flex: 0;
+    height: 100px;
+    margin: 20px;
+}
+
+main #company-section p {
+    line-height: 4rem;
+    font-size: 1.2rem;
+    padding: 20px 40px;
+    text-align: left;
+    border-left: 1px dashed rgba(0, 0, 0, 0.3);
+}
+
+main #comment-section {
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 40px 40px;
+}
+
+main #comment-section h2 {
+    font-size: 1.5rem;
+    margin: 40px 0;
+}
+
+main #comment-section ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+
+}
+
+main #comment-section ul li {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-direction: column;
+    margin: 0 40px;
+
+}
+
+main #comment-section ul li .comment-content p {
+    background-image: linear-gradient(180deg, #C2F0E9 0%, #98DBE7 100%);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 20px 40px;
+    font-size: 1rem;
+    color: #333333;
+    text-align: justify;
+    line-height: 2rem;
+}
+
+main #comment-section ul li .customer-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+
+.triangle_border_up {
+    width: 0;
+    margin-top: 9px;
+    height: 1.3rem;
+    margin-left: 2rem;
+    position: relative;
+}
+
+.triangle_border_up span {
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 0 1.3rem 1.3rem;
+    border-style: solid;
+    border-color: transparent transparent rgb(182, 231, 224);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+main #repair-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 120px;
+    flex-wrap: wrap;
+
+}
+
+main #repair-product section {
+    line-height: 2rem;
+    text-align: left;
+    flex: 2;
+}
+
+main #repair-product section p {
+    font-size: 1rem;
+}
+
+main #repair-product img {
+    flex: 1;
+    /*width: 480px;*/
+    /*height: 363px;*/
+}
+
+.button-tried {
+    font-weight: bold;
+    color: #00CD9F;
+    padding: 10px 0;
+}
+
+main #manage-product {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 120px;
+    flex-wrap: wrap;
+    background: rgb(255, 255, 255);
+}
+
+main #manage-product section {
+    line-height: 2rem;
+    text-align: left;
+    flex: 2;
+}
+
+main #manage-product section p {
+    font-size: 1.2rem;
+}
+
+main #manage-product img {
+    flex: 1;
+    /*width: 480px;*/
+    /*height: 363px;*/
+}
+
+.product-image {
+    width: 480px;
+    height: 363px;
+}
+
+
+main #contact-section {
+    display: flex;
+    align-items: stretch;
+    padding: 80px 120px;
+    /*flex-wrap: wrap;*/
+    flex-wrap: wrap;
+}
+
+
+main #contact-section form {
+    flex: 1;
+    background: #FFFFFF;
+    /*width: 50%;*/
+    /*margin: 20px auto;*/
+    box-shadow: 0 0 6px #000;
+    padding: 10px 40px;
+    margin: 10px 40px;
+}
+
+main #contact-section form fieldset {
+    flex: 1;
+    /*border-radius: 16px;*/
+    border: none;
+    border-top: 1px rgba(0, 0, 0, 0.4) dashed;
+}
+
+main #contact-section form fieldset legend {
+    font-weight: bold;
+    /*font-size: 0.8rem;*/
+}
+
+main #contact-section form#info-form ul li {
+    padding: 20px 0;
+    text-align: left;
+}
+
+
+.form-field {
+    margin: 20px 0px;
+
+}
+
+main #contact-section form button {
+    border-radius: 18px;
+    line-height: 25px;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    /*margin: 20px 10px;*/
+}
+
+main #contact-section form button[type="submit"] {
+    background: #007E62;
+}
+
+main #contact-section form button[type="reset"] {
+    background: #af0002;
+}
+
+main #contact-section form textarea {
+    width: 100%;
+    background: #E6E6E6;
+}
+
+
+main #contact-section form input {
+    font-size: 16px;
+    line-height: 30px;
+    background: #E6E6E6;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+}
+
+main #contact-section form input:focus, main #contact-section form textarea:focus {
+    background: #FFFFFF;
+    color: #007E62;
+}
+
+.field-error {
+    color: red;
+    font-style: italic;
+    /*font-weight: bold;*/
+    text-align: left;
+    /*padding-left: 20px;*/
+    /*display: none;*/
+}
+
+.field-label {
+    width: 100%;
+    display: inline-block;
+    text-align: left;
+}
+
+.field-label span {
+    color: #990b47;
+    font-weight: bold;
+}
+
+footer {
+    background: rgba(0, 0, 0, 0.85);
+    /*height: 250px;*/
+    color: white;
+}
+
+footer #footer-section {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    padding: 0 8rem;
+    font-size: 0.8rem;
+}
+
+footer #footer-section > #footer-nav {
+    flex: 1;
+}
+
+footer #footer-section > #hotline-info {
+    flex: 2;
+}
+
+footer #footer-section > #hotline-info ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer #footer-section > #hotline-info ul li {
+    flex: 1;
+    padding: 5px 0px;
+    letter-spacing: 4px;
+    text-wrap: nowrap;
+}
+
+footer #footer-section > #footer-nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #FFFFFF;
+}
+
+footer #footer-section > #footer-nav ul li {
+    flex: 1;
+    color: #FFFFFF;
+    padding: 5px 0px;
+    letter-spacing: 4px;
+    text-wrap: nowrap;
+}
+
+footer #footer-section > #footer-nav ul li a:hover, footer #footer-section > #footer-nav ul li a:focus {
+    color: #00CD9F;
+}
+
+footer #footer-section > #footer-nav ul li a {
+    color: #FFFFFF;
+}
+
+footer #footer-copyright {
+    font-size: 0.8rem;
+    color: #999999;
+    border-top: 1px solid rgba(239, 235, 235, 0.3);
+    text-align: left;
+    margin-top: 20px;
+    padding: 10px 8rem;
+
+}
+
+@media only screen and (min-width: 1024px) {
+    html {
+        font-size: 100%;
+    }
+
+}
+
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
+    html {
+        font-size: 85%;
+    }
+
+    header > #navigate-section {
+        padding: 0 40px;
+    }
+
+    header #banner-section {
+        padding: 20px 40px;
+    }
+
+    main #values-section {
+        padding: 40px 40px;
+
+    }
+
+    main #company-section {
+        padding: 20px 40px;
+    }
+
+    main #comment-section {
+        padding: 40px 40px;
+    }
+
+    #free-trial {
+        width: 60px;
+        height: 60px;
+    }
+
+    #free-trial > img {
+        width: 15px;
+    }
+
+    #free-trial > span {
+        padding: 5px 5px;
+    }
+
+    main #repair-product {
+        padding: 40px 40px;
+
+    }
+
+    main #manage-product {
+        padding: 40px 40px;
+    }
+
+    main #contact-section {
+        padding: 20px 0px;
+    }
+
+
+}
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+    html {
+        font-size: 80%;
+    }
+
+    header > #navigate-section {
+        padding: 0 20px;
+    }
+
+    header #header-nav ul li {
+        padding: 0 10px;
+    }
+
+    header #banner-section {
+        padding: 10px 20px;
+        background: url('../images/banner.png') no-repeat right 0px center, linear-gradient(90deg, #007E62 0%, #0C112C 100%);
+    }
+
+    header #banner-section #main-title {
+        letter-spacing: 8px;
+        padding: 0;
+        line-height: 40px;
+    }
+
+    header #banner-section #qrcode-list li img {
+        width: 150px;
+        height: 150px;
+    }
+
+    header #banner-section #sub-title {
+        letter-spacing: 8px;
+        padding: 0;
+    }
+
+
+    main #values-section {
+        padding: 20px 20px;
+
+    }
+
+    main #company-section {
+        padding: 10px 20px;
+    }
+
+    main #comment-section {
+        padding: 20px 20px;
+    }
+
+    #free-trial {
+        width: 50px;
+        height: 50px;
+    }
+
+    #free-trial > img {
+        width: 10px;
+    }
+
+    #free-trial > span {
+        padding: 4px 4px;
+    }
+
+    footer #footer-section {
+        padding: 0 40px;
+        /*font-size: 0.8rem;*/
+    }
+
+    footer #footer-copyright {
+        padding: 10px 40px;
+
+    }
+
+    main #repair-product {
+        padding: 20px 20px;
+
+    }
+
+    main #manage-product {
+        padding: 20px 20px;
+    }
+
+    main #contact-section {
+        padding: 20px 0px;
+    }
+
+    main #contact-section form {
+        padding: 10px 20px;
+        margin: 10px 20px;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    html {
+        font-size: 53.33%;
+    }
+
+    header > #navigate-section {
+        padding: 0 10px;
+    }
+
+    header #header-nav ul li {
+        padding: 0 5px;
+    }
+
+    header #banner-section {
+        padding: 5px 10px;
+        background: url('../images/banner.png') no-repeat right 0px center, linear-gradient(90deg, #007E62 0%, #0C112C 100%);
+    }
+
+
+    header #banner-section #qrcode-list li img {
+        width: 80px;
+        height: 80px;
+        padding-left: 4px;
+    }
+
+    header #banner-section #main-title {
+        letter-spacing: 4px;
+        padding: 4px;
+        line-height: 20px;
+    }
+
+    header #banner-section #sub-title {
+        letter-spacing: 4px;
+        padding: 0;
+    }
+
+
+    main #values-section {
+        padding: 10px 10px;
+
+    }
+
+    main #values-section ul li {
+        padding: 0px 40px;
+    }
+
+    main #company-section {
+        padding: 10px 20px;
+    }
+
+    main #company-section img {
+        height: 40px;
+        margin: 10px;
+    }
+
+    main #company-section p {
+        line-height: 20px;
+        padding: 10px 10px;
+    }
+
+
+    main #comment-section {
+        padding: 10px 10px;
+    }
+
+    main #comment-section ul li {
+        margin: 0 20px;
+
+    }
+
+    #free-trial {
+        width: 50px;
+        height: 50px;
+    }
+
+    #free-trial > img {
+        width: 10px;
+    }
+
+    #free-trial > span {
+        padding: 4px 4px;
+    }
+
+    footer #footer-section {
+        padding: 0 10px;
+    }
+
+    footer #footer-copyright {
+        padding: 4px 10px;
+
+    }
+
+    main #repair-product {
+        padding: 10px 10px;
+
+    }
+
+    main #manage-product {
+        padding: 10px 10px;
+    }
+
+    .product-image {
+        width: 240px;
+        height: 180px;
+    }
+
+    main #contact-section {
+        padding: 10px 0px;
+    }
+
+    main #contact-section form {
+        padding: 10px 10px;
+        margin: 10px 10px;
+    }
+
+
+}
+
+
+
+
