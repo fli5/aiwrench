@@ -703,7 +703,7 @@ footer #footer-copyright {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     html {
-        font-size: 53.33%;
+        font-size: 70%;
     }
 
     header > #navigate-section {
