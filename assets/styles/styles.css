@@ -509,6 +509,7 @@ footer #footer-section > #hotline-info ul li {
     padding: 5px 0px;
     letter-spacing: 4px;
     text-wrap: nowrap;
+    display: inline-block;
 }
 
 footer #footer-section > #footer-nav ul {
