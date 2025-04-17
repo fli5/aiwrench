@@ -61,7 +61,7 @@ a {
 }
 
 #free-trial > span {
-    color: #FFFFFF;
+    color: #363636;
     padding: 10px 10px;
     font-weight: bold;
 }
@@ -71,7 +71,7 @@ a {
 }
 
 .active-link {
-    color: #00CD9F;
+    color: #008265;
 }
 
 header > #navigate-section {
@@ -114,7 +114,7 @@ header #header-nav ul li {
 }
 
 header #header-nav ul li a:hover, #header-nav ul li a:focus {
-    color: #00CD9F;
+    color: #008265;
 }
 
 header #banner-section {
@@ -338,7 +338,7 @@ main #repair-product img {
 
 .button-tried {
     font-weight: bold;
-    color: #00CD9F;
+    color: #008063;
     padding: 10px 0;
 }
 
