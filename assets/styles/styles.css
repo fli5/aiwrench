@@ -147,7 +147,7 @@ header #banner-section #main-title {
 }
 
 header #banner-section #sub-title {
-    font-size:1.2rem;
+    font-size: 1.2rem;
     font-weight: normal;
     letter-spacing: 1rem;
     padding-left: 4rem;
@@ -322,9 +322,9 @@ main #repair-product {
 }
 
 main #repair-product section {
+    flex: 2;
     line-height: 2rem;
     text-align: left;
-    flex: 2;
 }
 
 main #repair-product section p {
@@ -794,12 +794,13 @@ footer #footer-copyright {
     }
 
     main #repair-product {
-        padding: 10px 10px;
-
+        padding: 10px 20px;
     }
 
+
+
     main #manage-product {
-        padding: 10px 10px;
+        padding: 10px 20px;
     }
 
     .product-image {
