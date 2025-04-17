@@ -458,10 +458,7 @@ main #contact-section form input:focus, main #contact-section form textarea:focu
 .field-error {
     color: red;
     font-style: italic;
-    /*font-weight: bold;*/
     text-align: left;
-    /*padding-left: 20px;*/
-    /*display: none;*/
 }
 
 .field-label {
@@ -477,7 +474,6 @@ main #contact-section form input:focus, main #contact-section form textarea:focu
 
 footer {
     background: rgba(0, 0, 0, 0.85);
-    /*height: 250px;*/
     color: white;
 }
 
@@ -486,7 +482,6 @@ footer #footer-section {
     align-items: stretch;
     justify-content: center;
     padding: 0 8rem;
-    /*font-size: 0.8rem;*/
 }
 
 footer #footer-section > #footer-nav {
@@ -494,7 +489,7 @@ footer #footer-section > #footer-nav {
 }
 
 footer #footer-section > #hotline-info {
-    flex: 2;
+    flex: 1;
 }
 
 footer #footer-section > #hotline-info ul {
