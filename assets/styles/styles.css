@@ -500,7 +500,8 @@ footer #footer-section > #hotline-info ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: stretch;
+    text-align: left;
 }
 
 footer #footer-section > #hotline-info ul li {
