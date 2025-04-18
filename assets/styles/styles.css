@@ -627,9 +627,14 @@ footer #footer-copyright {
         line-height: 40px;
     }
 
+    header #banner-section #qrcode-list li{
+        margin-right:20px;
+    }
+
     header #banner-section #qrcode-list li img {
         width: 150px;
         height: 150px;
+        padding: 0;
     }
 
     header #banner-section #sub-title {
@@ -716,12 +721,12 @@ footer #footer-copyright {
 
 
     header #banner-section #qrcode-list li{
-        margin-right:10px;
+        margin-right:20px;
     }
     header #banner-section #qrcode-list li img {
         width: 80px;
         height: 80px;
-        padding-left: 4px;
+        padding: 0px;
     }
 
     header #banner-section #main-title {
