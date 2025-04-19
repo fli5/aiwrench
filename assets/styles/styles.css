@@ -43,6 +43,15 @@ a {
     cursor: pointer;
 }
 
+@keyframes breath-animation {
+    from {
+        transform: scale(0.8, 0.8);
+    }
+    to {
+        transform: scale(1, 1);
+    }
+}
+
 #free-trial {
     width: 100px;
     height: 100px;
@@ -58,6 +67,11 @@ a {
     right: 10px;
     top: 49%;
     z-index: 99999;
+    box-shadow: 0px 0px 8px gray;
+    animation-name: breath-animation;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.5s;
 }
 
 #free-trial > span {
@@ -627,8 +641,8 @@ footer #footer-copyright {
         line-height: 40px;
     }
 
-    header #banner-section #qrcode-list li{
-        margin-right:20px;
+    header #banner-section #qrcode-list li {
+        margin-right: 20px;
     }
 
     header #banner-section #qrcode-list li img {
@@ -720,9 +734,10 @@ footer #footer-copyright {
     }
 
 
-    header #banner-section #qrcode-list li{
-        margin-right:20px;
+    header #banner-section #qrcode-list li {
+        margin-right: 20px;
     }
+
     header #banner-section #qrcode-list li img {
         width: 80px;
         height: 80px;
@@ -777,6 +792,7 @@ footer #footer-copyright {
     #free-trial {
         width: 50px;
         height: 50px;
+
     }
 
     #free-trial > img {
@@ -799,7 +815,6 @@ footer #footer-copyright {
     main #repair-product {
         padding: 10px 20px;
     }
-
 
 
     main #manage-product {
