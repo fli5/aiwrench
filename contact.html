@@ -1,6 +1,7 @@
 <!-- contact.html -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,100 +11,106 @@
     <script src="assets/scripts/form.validate.js" defer></script>
     <script src="assets/scripts/utility.function.js" defer></script>
 </head>
+
 <body>
-<div id="free-trial" role="navigation">
-    <span>TRY</span>
-    <img src="assets/images/free-trial.png" alt="free-trial">
-</div>
-<header>
-    <div id="navigate-section">
-        <img src="assets/images/logo.png" alt="Logo" id="logo">
-        <nav id="header-nav" aria-label="header navigation">
-            <ul>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="products.html">SERVICES</a></li>
-                <li><a class="active-link" href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
+    <div id="free-trial" role="navigation">
+        <span>TRY</span>
+        <img src="assets/images/free-trial.png" alt="free-trial">
     </div>
-    <div id="banner-section">
-        <div>
-            <h1 id="main-title">EXCELLENT AUTOMOTIVE AFTER-SALES SERVICE</h1>
-            <br>
-            <h2 id="sub-title">INTELLIGENT DATA DRIVEN SERVICE</h2>
-            <br>
-            <br>
-            <ul id="qrcode-list">
-                <li><img src="assets/images/qrcode-1.png" alt="qrcode-1.png"></li>
-                <li><img src="assets/images/qrcode-2.png" alt="qrcode-2.png"></li>
-            </ul>
-        </div>
-    </div>
-</header>
-<main>
-    <div id="contact-section">
-        <form id="contact-form" action="index.html" method="post">
-            <fieldset>
-                <legend>CONTACT US</legend>
-                <div class="form-field">
-                    <label for="full-name" class="field-label"><span>*</span>Your Name:</label>
-                    <input type="text" id="full-name" name="full-name">
-                    <div class="field-error" id="full-name_error">* Please enter your full name.</div>
-                </div>
-                <div class="form-field">
-                    <label for="phone-number" class="field-label"><span>*</span>Cell Phone:</label>
-                    <input type="number" id="phone-number" name="phone-number" >
-                    <div class="field-error" id="phone-number_error">* Please enter your phone number.</div>
-                </div>
-                <div class="form-field">
-                    <label for="email-address" class="field-label"><span>*</span>Your Email:</label>
-                    <input type="email" id="email-address" name="email-address" >
-                    <div class="field-error" id="email-address_error">* Please enter your email address.</div>
-                </div>
-                <div class="form-field">
-                    <label for="feedback" class="field-label">Is there any way we can serve you better?</label><br>
-                    <textarea id="feedback" name="feedback" rows="8" cols="50"></textarea>
-                </div>
-                <button type="submit">SUBMIT</button>
-                <button type="reset">CLEAR</button>
-            </fieldset>
-        </form>
-        <form id="info-form">
-            <fieldset>
-                <legend>CONTACT INFO</legend>
+    <header>
+        <div id="navigate-section">
+            <img src="assets/images/logo.png" alt="Logo" id="logo">
+            <nav id="header-nav" aria-label="header navigation">
                 <ul>
-                    <li><b>OFFICE:</b></li>
-                    <li>Email: info@aibanshou.com</li>
-                    <li>Phone: +86 022-5156-778</li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="products.html">SERVICES</a></li>
+                    <li><a class="active-link" href="contact.html">CONTACT</a></li>
                 </ul>
-                <ul>
-                    <li><b>SUPPORT:</b></li>
-                    <li>Call: +86 022-5156-778</li>
-                    <li>Email: support@aibanshou.com</li>
-                </ul>
-            </fieldset>
-        </form>
-    </div>
-</main>
-<footer>
-    <div id="footer-section">
-        <nav id="footer-nav" aria-label="footer navigation">
-            <ul>
-                <li><h3>Explore</h3></li>
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="products.html">SERVICES</a></li>
-                <li><a class="active-link" href="contact.html">CONTACT</a></li>
-            </ul>
-        </nav>
-        <div id="hotline-info">
-            <ul>
-                <li><h3>Hotline</h3></li>
-                <li>Support Call：<br>+86 022-5156-778</li>
-                <li>Service Time：<br>9:30-19:00</li>
-            </ul>
+            </nav>
         </div>
-    </div>
-    <div id="footer-copyright">© Copyright 2012 - 2020 | Beijing Zhiyun Xinghui Technology Co., Ltd.</div>
-</footer>
+        <div id="banner-section">
+            <div>
+                <h1 id="main-title">EXCELLENT AUTOMOTIVE AFTER-SALES SERVICE</h1>
+                <br>
+                <h2 id="sub-title">INTELLIGENT DATA DRIVEN SERVICE</h2>
+                <br>
+                <br>
+                <ul id="qrcode-list">
+                    <li><img src="assets/images/qrcode-1.png" alt="qrcode-1.png"></li>
+                    <li><img src="assets/images/qrcode-2.png" alt="qrcode-2.png"></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div id="contact-section">
+            <form id="contact-form" action="index.html" method="post">
+                <fieldset>
+                    <legend>CONTACT US</legend>
+                    <div class="form-field">
+                        <label for="full-name" class="field-label"><span>*</span>Your Name:</label>
+                        <input type="text" id="full-name" name="full-name">
+                        <div class="field-error" id="full-name_error">* Please enter your full name.</div>
+                    </div>
+                    <div class="form-field">
+                        <label for="phone-number" class="field-label"><span>*</span>Cell Phone:</label>
+                        <input type="number" id="phone-number" name="phone-number">
+                        <div class="field-error" id="phone-number_error">* Please enter your phone number.</div>
+                    </div>
+                    <div class="form-field">
+                        <label for="email-address" class="field-label"><span>*</span>Your Email:</label>
+                        <input type="email" id="email-address" name="email-address">
+                        <div class="field-error" id="email-address_error">* Please enter your email address.</div>
+                    </div>
+                    <div class="form-field">
+                        <label for="feedback" class="field-label">Is there any way we can serve you better?</label><br>
+                        <textarea id="feedback" name="feedback" rows="8" cols="50"></textarea>
+                    </div>
+                    <button type="submit">SUBMIT</button>
+                    <button type="reset">CLEAR</button>
+                </fieldset>
+            </form>
+            <form id="info-form">
+                <fieldset>
+                    <legend>CONTACT INFO</legend>
+                    <ul>
+                        <li><b>OFFICE:</b></li>
+                        <li>Email: info@aibanshou.com</li>
+                        <li>Phone: +86 022-5156-778</li>
+                    </ul>
+                    <ul>
+                        <li><b>SUPPORT:</b></li>
+                        <li>Call: +86 022-5156-778</li>
+                        <li>Email: support@aibanshou.com</li>
+                    </ul>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-section">
+            <nav id="footer-nav" aria-label="footer navigation">
+                <ul>
+                    <li>
+                        <h3>Explore</h3>
+                    </li>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="products.html">SERVICES</a></li>
+                    <li><a class="active-link" href="contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+            <div id="hotline-info">
+                <ul>
+                    <li>
+                        <h3>Hotline</h3>
+                    </li>
+                    <li>Support Call：<br>+86 022-5156-778</li>
+                    <li>Service Time：<br>9:30-19:00</li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer-copyright">© Copyright 2012 - 2020 | Beijing Zhiyun Xinghui Technology Co., Ltd.</div>
+    </footer>
 </body>
+
 </html>
